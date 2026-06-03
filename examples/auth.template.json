@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "providers": {},
+  "credential_pool": {
+    "openrouter": [
+      {
+        "id": "slot_1",
+        "label": "Primary key",
+        "auth_type": "api_key",
+        "priority": 0,
+        "source": "env:OPENROUTER_KEY_1",
+        "access_token": "sk-or-v1-REPLACE_ME",
+        "last_status": "ok",
+        "last_status_at": null,
+        "last_error_code": null,
+        "last_error_reason": null,
+        "last_error_message": null,
+        "last_error_reset_at": null,
+        "base_url": "https://openrouter.ai/api/v1",
+        "request_count": 0
+      },
+      {
+        "id": "slot_2",
+        "label": "Secondary key",
+        "auth_type": "api_key",
+        "priority": 1,
+        "source": "env:OPENROUTER_KEY_2",
+        "access_token": "sk-or-v1-REPLACE_ME",
+        "last_status": "ok",
+        "last_status_at": null,
+        "last_error_code": null,
+        "last_error_reason": null,
+        "last_error_message": null,
+        "last_error_reset_at": null,
+        "base_url": "https://openrouter.ai/api/v1",
+        "request_count": 0
+      },
+      {
+        "id": "slot_3",
+        "label": "Reserve key",
+        "auth_type": "api_key",
+        "priority": 2,
+        "source": "env:OPENROUTER_KEY_3",
+        "access_token": "sk-or-v1-REPLACE_ME",
+        "last_status": "ok",
+        "last_status_at": null,
+        "last_error_code": null,
+        "last_error_reason": null,
+        "last_error_message": null,
+        "last_error_reset_at": null,
+        "base_url": "https://openrouter.ai/api/v1",
+        "request_count": 0
+      }
+    ]
+  },
+  "updated_at": null
+}

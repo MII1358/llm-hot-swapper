@@ -1,0 +1,25 @@
+{
+  "provider_pool": "openrouter",
+  "model_cycle": [
+    "provider/primary-model",
+    "provider/fallback-model",
+    "provider/reserve-model"
+  ],
+  "slot_model_overrides": {},
+  "default_model_fallback": "provider/primary-model",
+  "check_interval_seconds": 300,
+  "cooldown_seconds": 60,
+  "request_timeout_seconds": 60,
+  "healthcheck_prompt": "ping",
+  "sticky_swap": true,
+  "persist_auth_priority": true,
+  "persist_config_default": true,
+  "status_map": {
+    "dead": "dead",
+    "degraded": "exhausted"
+  },
+  "request_headers": {
+    "X-Title": "Hot Swapper"
+  },
+  "test_prompt": "Reply with just: OK"
+}

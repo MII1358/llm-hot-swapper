@@ -1,0 +1,6 @@
+__pycache__/
+logs/
+*.pyc
+hot_swapper.config.json
+.env
+auth.json
